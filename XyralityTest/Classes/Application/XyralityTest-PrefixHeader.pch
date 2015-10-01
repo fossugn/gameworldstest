@@ -1,0 +1,30 @@
+//
+//  XyralityTest-PrefixHeader.pch
+//  XyralityTest
+//
+//  Created by Eugene Kutia on 10/1/15.
+//  Copyright © 2015 EugeneKutia. All rights reserved.
+//
+
+#ifndef XyralityTest_PrefixHeader_pch
+#define XyralityTest_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//Configs
+#import "Constants.h"
+#import "Macroses.h"
+
+//mapping
+#import "EasyMapping.h"
+
+// 3rd party libraries
+#import "ObjectiveSugar.h"
+#import "extobjc.h"
+
+//PromiseKit
+//#import "Promise.h"
+
+
+#endif /* XyralityTest_PrefixHeader_pch */

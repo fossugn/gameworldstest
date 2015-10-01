@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		743B91311BBD42FD00166E48 /* XyralityTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 743B91301BBD42FD00166E48 /* XyralityTestTests.m */; };
+		743B914B1BBD556C00166E48 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 743B914A1BBD556C00166E48 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		743B91521BBD557800166E48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 743B914D1BBD557800166E48 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		743B91531BBD557800166E48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 743B91501BBD557800166E48 /* main.m */; settings = {ASSET_TAGS = (); }; };
+		743B91581BBD558300166E48 /* XTLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 743B91551BBD558300166E48 /* XTLoginViewController.m */; settings = {ASSET_TAGS = (); }; };
+		743B91591BBD558300166E48 /* XTWorldsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 743B91571BBD558300166E48 /* XTWorldsListViewController.m */; settings = {ASSET_TAGS = (); }; };
+		743B915C1BBD55C800166E48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 743B915B1BBD55C800166E48 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
+		743B91621BBD55D100166E48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743B915E1BBD55D100166E48 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		743B91631BBD55D100166E48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743B91601BBD55D100166E48 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		743B916A1BBD697000166E48 /* XTGameWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = 743B91691BBD697000166E48 /* XTGameWorld.m */; settings = {ASSET_TAGS = (); }; };
+		743B916D1BBD6AD100166E48 /* XTGameWorlds.m in Sources */ = {isa = PBXBuildFile; fileRef = 743B916C1BBD6AD100166E48 /* XTGameWorlds.m */; settings = {ASSET_TAGS = (); }; };
+		743B91701BBD6B2800166E48 /* XTGameWorldStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 743B916F1BBD6B2800166E48 /* XTGameWorldStatus.m */; settings = {ASSET_TAGS = (); }; };
+		743B91771BBD72A500166E48 /* XTNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 743B91761BBD72A500166E48 /* XTNetworkManager.m */; settings = {ASSET_TAGS = (); }; };
+		743B917B1BBD731100166E48 /* XTService.m in Sources */ = {isa = PBXBuildFile; fileRef = 743B917A1BBD731100166E48 /* XTService.m */; settings = {ASSET_TAGS = (); }; };
+		743B917E1BBD733700166E48 /* XTGameWorldsList.m in Sources */ = {isa = PBXBuildFile; fileRef = 743B917D1BBD733700166E48 /* XTGameWorldsList.m */; settings = {ASSET_TAGS = (); }; };
+		743B91811BBD749200166E48 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 743B91801BBD749200166E48 /* Localizable.strings */; settings = {ASSET_TAGS = (); }; };
+		A281F1E3B1F959836D13CCF8 /* libPods-XyralityTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8250EF58A9BC8F796F67A6E /* libPods-XyralityTest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		743B912D1BBD42FD00166E48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 743B910B1BBD42FD00166E48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 743B91121BBD42FD00166E48;
+			remoteInfo = XyralityTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15094E218459EF93E409E3A0 /* Pods-XyralityTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XyralityTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-XyralityTest/Pods-XyralityTest.release.xcconfig"; sourceTree = "<group>"; };
+		743B91131BBD42FD00166E48 /* XyralityTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XyralityTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		743B912C1BBD42FD00166E48 /* XyralityTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XyralityTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		743B91301BBD42FD00166E48 /* XyralityTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XyralityTestTests.m; sourceTree = "<group>"; };
+		743B91321BBD42FD00166E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		743B914A1BBD556C00166E48 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		743B914C1BBD557800166E48 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		743B914D1BBD557800166E48 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		743B914E1BBD557800166E48 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		743B914F1BBD557800166E48 /* Macroses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macroses.h; sourceTree = "<group>"; };
+		743B91501BBD557800166E48 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		743B91511BBD557800166E48 /* XyralityTest-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XyralityTest-PrefixHeader.pch"; sourceTree = "<group>"; };
+		743B91541BBD558300166E48 /* XTLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTLoginViewController.h; sourceTree = "<group>"; };
+		743B91551BBD558300166E48 /* XTLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTLoginViewController.m; sourceTree = "<group>"; };
+		743B91561BBD558300166E48 /* XTWorldsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTWorldsListViewController.h; sourceTree = "<group>"; };
+		743B91571BBD558300166E48 /* XTWorldsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTWorldsListViewController.m; sourceTree = "<group>"; };
+		743B915B1BBD55C800166E48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		743B915F1BBD55D100166E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		743B91611BBD55D100166E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		743B91641BBD643B00166E48 /* PromiseKit_AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit_AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/PromiseKit_AFNetworking.framework"; sourceTree = "<group>"; };
+		743B91651BBD643B00166E48 /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = "Pods/../build/Debug-iphoneos/PromiseKit.framework"; sourceTree = "<group>"; };
+		743B91681BBD697000166E48 /* XTGameWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTGameWorld.h; sourceTree = "<group>"; };
+		743B91691BBD697000166E48 /* XTGameWorld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTGameWorld.m; sourceTree = "<group>"; };
+		743B916B1BBD6AD100166E48 /* XTGameWorlds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTGameWorlds.h; sourceTree = "<group>"; };
+		743B916C1BBD6AD100166E48 /* XTGameWorlds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTGameWorlds.m; sourceTree = "<group>"; };
+		743B916E1BBD6B2800166E48 /* XTGameWorldStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTGameWorldStatus.h; sourceTree = "<group>"; };
+		743B916F1BBD6B2800166E48 /* XTGameWorldStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTGameWorldStatus.m; sourceTree = "<group>"; };
+		743B91751BBD72A500166E48 /* XTNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTNetworkManager.h; sourceTree = "<group>"; };
+		743B91761BBD72A500166E48 /* XTNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTNetworkManager.m; sourceTree = "<group>"; };
+		743B91791BBD731100166E48 /* XTService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTService.h; sourceTree = "<group>"; };
+		743B917A1BBD731100166E48 /* XTService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTService.m; sourceTree = "<group>"; };
+		743B917C1BBD733700166E48 /* XTGameWorldsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTGameWorldsList.h; sourceTree = "<group>"; };
+		743B917D1BBD733700166E48 /* XTGameWorldsList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTGameWorldsList.m; sourceTree = "<group>"; };
+		743B91801BBD749200166E48 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		BCF94B7C65A8AB0E4C4C6C7D /* Pods-XyralityTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XyralityTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XyralityTest/Pods-XyralityTest.debug.xcconfig"; sourceTree = "<group>"; };
+		F8250EF58A9BC8F796F67A6E /* libPods-XyralityTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XyralityTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		743B91101BBD42FD00166E48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A281F1E3B1F959836D13CCF8 /* libPods-XyralityTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743B91291BBD42FD00166E48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A3FED3C69441916997FAAA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCF94B7C65A8AB0E4C4C6C7D /* Pods-XyralityTest.debug.xcconfig */,
+				15094E218459EF93E409E3A0 /* Pods-XyralityTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		743B910A1BBD42FD00166E48 = {
+			isa = PBXGroup;
+			children = (
+				743B91151BBD42FD00166E48 /* XyralityTest */,
+				743B912F1BBD42FD00166E48 /* XyralityTestTests */,
+				743B91141BBD42FD00166E48 /* Products */,
+				5A3FED3C69441916997FAAA6 /* Pods */,
+				CE9A625E38562BDDB25312F6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		743B91141BBD42FD00166E48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				743B91131BBD42FD00166E48 /* XyralityTest.app */,
+				743B912C1BBD42FD00166E48 /* XyralityTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		743B91151BBD42FD00166E48 /* XyralityTest */ = {
+			isa = PBXGroup;
+			children = (
+				743B91421BBD529C00166E48 /* Classes */,
+				743B91411BBD529500166E48 /* Resources */,
+			);
+			path = XyralityTest;
+			sourceTree = "<group>";
+		};
+		743B912F1BBD42FD00166E48 /* XyralityTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				743B91301BBD42FD00166E48 /* XyralityTestTests.m */,
+				743B91321BBD42FD00166E48 /* Info.plist */,
+			);
+			path = XyralityTestTests;
+			sourceTree = "<group>";
+		};
+		743B91411BBD529500166E48 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				743B917F1BBD745A00166E48 /* Translations */,
+				743B915D1BBD55D100166E48 /* Storyboards */,
+				743B915A1BBD55C800166E48 /* Images */,
+				743B91491BBD532E00166E48 /* Plists */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		743B91421BBD529C00166E48 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				743B91431BBD52F700166E48 /* Application */,
+				743B91441BBD52F700166E48 /* Categories */,
+				743B91451BBD52F700166E48 /* Controllers */,
+				743B91461BBD52F700166E48 /* Managers */,
+				743B91741BBD72A500166E48 /* Networking */,
+				743B91471BBD52F700166E48 /* Models */,
+				743B91481BBD52F700166E48 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		743B91431BBD52F700166E48 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				743B914C1BBD557800166E48 /* AppDelegate.h */,
+				743B914D1BBD557800166E48 /* AppDelegate.m */,
+				743B914E1BBD557800166E48 /* Constants.h */,
+				743B914F1BBD557800166E48 /* Macroses.h */,
+				743B91501BBD557800166E48 /* main.m */,
+				743B91511BBD557800166E48 /* XyralityTest-PrefixHeader.pch */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		743B91441BBD52F700166E48 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		743B91451BBD52F700166E48 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				743B91541BBD558300166E48 /* XTLoginViewController.h */,
+				743B91551BBD558300166E48 /* XTLoginViewController.m */,
+				743B91561BBD558300166E48 /* XTWorldsListViewController.h */,
+				743B91571BBD558300166E48 /* XTWorldsListViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		743B91461BBD52F700166E48 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		743B91471BBD52F700166E48 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				743B916B1BBD6AD100166E48 /* XTGameWorlds.h */,
+				743B916C1BBD6AD100166E48 /* XTGameWorlds.m */,
+				743B91681BBD697000166E48 /* XTGameWorld.h */,
+				743B91691BBD697000166E48 /* XTGameWorld.m */,
+				743B916E1BBD6B2800166E48 /* XTGameWorldStatus.h */,
+				743B916F1BBD6B2800166E48 /* XTGameWorldStatus.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		743B91481BBD52F700166E48 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		743B91491BBD532E00166E48 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				743B914A1BBD556C00166E48 /* Info.plist */,
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
+		743B915A1BBD55C800166E48 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				743B915B1BBD55C800166E48 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		743B915D1BBD55D100166E48 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				743B915E1BBD55D100166E48 /* LaunchScreen.storyboard */,
+				743B91601BBD55D100166E48 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		743B91741BBD72A500166E48 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				743B91751BBD72A500166E48 /* XTNetworkManager.h */,
+				743B91761BBD72A500166E48 /* XTNetworkManager.m */,
+				743B91781BBD72DE00166E48 /* Services */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		743B91781BBD72DE00166E48 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				743B91791BBD731100166E48 /* XTService.h */,
+				743B917A1BBD731100166E48 /* XTService.m */,
+				743B917C1BBD733700166E48 /* XTGameWorldsList.h */,
+				743B917D1BBD733700166E48 /* XTGameWorldsList.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		743B917F1BBD745A00166E48 /* Translations */ = {
+			isa = PBXGroup;
+			children = (
+				743B91801BBD749200166E48 /* Localizable.strings */,
+			);
+			path = Translations;
+			sourceTree = "<group>";
+		};
+		CE9A625E38562BDDB25312F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				743B91641BBD643B00166E48 /* PromiseKit_AFNetworking.framework */,
+				743B91651BBD643B00166E48 /* PromiseKit.framework */,
+				F8250EF58A9BC8F796F67A6E /* libPods-XyralityTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		743B91121BBD42FD00166E48 /* XyralityTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 743B91351BBD42FD00166E48 /* Build configuration list for PBXNativeTarget "XyralityTest" */;
+			buildPhases = (
+				A401D42883D5280B995160FD /* Check Pods Manifest.lock */,
+				743B910F1BBD42FD00166E48 /* Sources */,
+				743B91101BBD42FD00166E48 /* Frameworks */,
+				743B91111BBD42FD00166E48 /* Resources */,
+				3654D1DEB0AEEF322642BC13 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XyralityTest;
+			productName = XyralityTest;
+			productReference = 743B91131BBD42FD00166E48 /* XyralityTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		743B912B1BBD42FD00166E48 /* XyralityTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 743B91381BBD42FD00166E48 /* Build configuration list for PBXNativeTarget "XyralityTestTests" */;
+			buildPhases = (
+				743B91281BBD42FD00166E48 /* Sources */,
+				743B91291BBD42FD00166E48 /* Frameworks */,
+				743B912A1BBD42FD00166E48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				743B912E1BBD42FD00166E48 /* PBXTargetDependency */,
+			);
+			name = XyralityTestTests;
+			productName = XyralityTestTests;
+			productReference = 743B912C1BBD42FD00166E48 /* XyralityTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		743B910B1BBD42FD00166E48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = EugeneKutia;
+				TargetAttributes = {
+					743B91121BBD42FD00166E48 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					743B912B1BBD42FD00166E48 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 743B91121BBD42FD00166E48;
+					};
+				};
+			};
+			buildConfigurationList = 743B910E1BBD42FD00166E48 /* Build configuration list for PBXProject "XyralityTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 743B910A1BBD42FD00166E48;
+			productRefGroup = 743B91141BBD42FD00166E48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				743B91121BBD42FD00166E48 /* XyralityTest */,
+				743B912B1BBD42FD00166E48 /* XyralityTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		743B91111BBD42FD00166E48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743B91811BBD749200166E48 /* Localizable.strings in Resources */,
+				743B91621BBD55D100166E48 /* LaunchScreen.storyboard in Resources */,
+				743B915C1BBD55C800166E48 /* Assets.xcassets in Resources */,
+				743B914B1BBD556C00166E48 /* Info.plist in Resources */,
+				743B91631BBD55D100166E48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743B912A1BBD42FD00166E48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3654D1DEB0AEEF322642BC13 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XyralityTest/Pods-XyralityTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A401D42883D5280B995160FD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		743B910F1BBD42FD00166E48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743B91531BBD557800166E48 /* main.m in Sources */,
+				743B91591BBD558300166E48 /* XTWorldsListViewController.m in Sources */,
+				743B91701BBD6B2800166E48 /* XTGameWorldStatus.m in Sources */,
+				743B91581BBD558300166E48 /* XTLoginViewController.m in Sources */,
+				743B91521BBD557800166E48 /* AppDelegate.m in Sources */,
+				743B916D1BBD6AD100166E48 /* XTGameWorlds.m in Sources */,
+				743B917E1BBD733700166E48 /* XTGameWorldsList.m in Sources */,
+				743B917B1BBD731100166E48 /* XTService.m in Sources */,
+				743B91771BBD72A500166E48 /* XTNetworkManager.m in Sources */,
+				743B916A1BBD697000166E48 /* XTGameWorld.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743B91281BBD42FD00166E48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743B91311BBD42FD00166E48 /* XyralityTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		743B912E1BBD42FD00166E48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 743B91121BBD42FD00166E48 /* XyralityTest */;
+			targetProxy = 743B912D1BBD42FD00166E48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		743B915E1BBD55D100166E48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				743B915F1BBD55D100166E48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		743B91601BBD55D100166E48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				743B91611BBD55D100166E48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		743B91331BBD42FD00166E48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		743B91341BBD42FD00166E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		743B91361BBD42FD00166E48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCF94B7C65A8AB0E4C4C6C7D /* Pods-XyralityTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XyralityTest/Classes/Application/XyralityTest-PrefixHeader.pch";
+				INFOPLIST_FILE = XyralityTest/Resources/Plists/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eugenekutia.XyralityTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		743B91371BBD42FD00166E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15094E218459EF93E409E3A0 /* Pods-XyralityTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XyralityTest/Classes/Application/XyralityTest-PrefixHeader.pch";
+				INFOPLIST_FILE = XyralityTest/Resources/Plists/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eugenekutia.XyralityTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		743B91391BBD42FD00166E48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XyralityTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eugenekutia.XyralityTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XyralityTest.app/XyralityTest";
+			};
+			name = Debug;
+		};
+		743B913A1BBD42FD00166E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XyralityTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eugenekutia.XyralityTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XyralityTest.app/XyralityTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		743B910E1BBD42FD00166E48 /* Build configuration list for PBXProject "XyralityTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				743B91331BBD42FD00166E48 /* Debug */,
+				743B91341BBD42FD00166E48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		743B91351BBD42FD00166E48 /* Build configuration list for PBXNativeTarget "XyralityTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				743B91361BBD42FD00166E48 /* Debug */,
+				743B91371BBD42FD00166E48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		743B91381BBD42FD00166E48 /* Build configuration list for PBXNativeTarget "XyralityTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				743B91391BBD42FD00166E48 /* Debug */,
+				743B913A1BBD42FD00166E48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 743B910B1BBD42FD00166E48 /* Project object */;
+}
