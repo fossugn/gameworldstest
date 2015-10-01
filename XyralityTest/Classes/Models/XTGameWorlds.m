@@ -11,8 +11,7 @@
 
 @implementation XTGameWorlds
 
-+(EKObjectMapping *)objectMapping
-{
++ (EKObjectMapping *)objectMapping {
     return [EKObjectMapping mappingForClass:self withBlock:^(EKObjectMapping *mapping) {
         [mapping hasMany:[XTGameWorld class] forKeyPath:@"allAvailableWorlds" forProperty:@"gameWorlds"];
     }];

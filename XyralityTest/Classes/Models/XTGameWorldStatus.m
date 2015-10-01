@@ -10,8 +10,7 @@
 
 @implementation XTGameWorldStatus
 
-+(EKObjectMapping *)objectMapping
-{
++ (EKObjectMapping *)objectMapping {
     return [EKObjectMapping mappingForClass:self withBlock:^(EKObjectMapping *mapping) {
         [mapping mapPropertiesFromDictionary:@{ @"description"  : @"statusDescription",
                                                 @"id"           : @"statusId"           }] ;

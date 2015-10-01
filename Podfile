@@ -7,9 +7,6 @@ inhibit_all_warnings!
 
 target 'XyralityTest' do
 
-# debug tools
-#pod 'CocoaLumberjack'
-
 #Networking + Mapping
     pod 'EasyMapping'
     pod 'AFNetworking'
@@ -17,22 +14,14 @@ target 'XyralityTest' do
     pod 'PromiseKit-AFNetworking', '~> 0.1.7'
 
 # categories
-    pod 'GVUserDefaults'
     pod 'ObjectiveSugar'
     pod 'libextobjc'
-    pod 'UIAlertView-Blocks'
-
-#Core Data
-    pod 'MagicalRecord'
 
 # UI
-    pod 'Masonry'
-    pod 'HexColors'
-    pod 'TPKeyboardAvoiding'
-    pod 'TSMessages'
+    pod 'MRProgress'
 
 #Third-party
-  pod 'SSKeychain'
+  pod 'REValidation'
 
 end
 

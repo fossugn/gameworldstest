@@ -34,16 +34,10 @@ static dispatch_once_t once_token = 0;
 
         self.responseSerializer = [AFPropertyListResponseSerializer serializer];
         self.requestSerializer = [AFHTTPRequestSerializer serializer];
-        
-//        self.authToken = [PXMModelManager sharedInstance].user.authToken;
-//        
-//        [self.requestSerializer setAuthorizationHeaderFieldWithUsername:self.config.serviceUsername
-//                                                               password:self.config.servicePassword];
-        
+
         AFSecurityPolicy *securityPolicy = [AFSecurityPolicy policyWithPinningMode:AFSSLPinningModeNone];
         securityPolicy.allowInvalidCertificates = YES;
         self.securityPolicy = securityPolicy;
-        
     }
     
     [AFNetworkReachabilityManager sharedManager].reachabilityStatusChangeBlock = ^(AFNetworkReachabilityStatus status) {

@@ -23,6 +23,7 @@
 		743B917B1BBD731100166E48 /* XTService.m in Sources */ = {isa = PBXBuildFile; fileRef = 743B917A1BBD731100166E48 /* XTService.m */; settings = {ASSET_TAGS = (); }; };
 		743B917E1BBD733700166E48 /* XTGameWorldsList.m in Sources */ = {isa = PBXBuildFile; fileRef = 743B917D1BBD733700166E48 /* XTGameWorldsList.m */; settings = {ASSET_TAGS = (); }; };
 		743B91811BBD749200166E48 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 743B91801BBD749200166E48 /* Localizable.strings */; settings = {ASSET_TAGS = (); }; };
+		743B91861BBDC11C00166E48 /* XTProgressOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 743B91851BBDC11C00166E48 /* XTProgressOverlayView.m */; settings = {ASSET_TAGS = (); }; };
 		A281F1E3B1F959836D13CCF8 /* libPods-XyralityTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8250EF58A9BC8F796F67A6E /* libPods-XyralityTest.a */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +72,9 @@
 		743B917C1BBD733700166E48 /* XTGameWorldsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTGameWorldsList.h; sourceTree = "<group>"; };
 		743B917D1BBD733700166E48 /* XTGameWorldsList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTGameWorldsList.m; sourceTree = "<group>"; };
 		743B91801BBD749200166E48 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		743B91831BBDC11C00166E48 /* MRProgressOverlayView_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRProgressOverlayView_Extension.h; sourceTree = "<group>"; };
+		743B91841BBDC11C00166E48 /* XTProgressOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTProgressOverlayView.h; sourceTree = "<group>"; };
+		743B91851BBDC11C00166E48 /* XTProgressOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTProgressOverlayView.m; sourceTree = "<group>"; };
 		BCF94B7C65A8AB0E4C4C6C7D /* Pods-XyralityTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XyralityTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XyralityTest/Pods-XyralityTest.debug.xcconfig"; sourceTree = "<group>"; };
 		F8250EF58A9BC8F796F67A6E /* libPods-XyralityTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XyralityTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -156,9 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				743B91431BBD52F700166E48 /* Application */,
-				743B91441BBD52F700166E48 /* Categories */,
 				743B91451BBD52F700166E48 /* Controllers */,
-				743B91461BBD52F700166E48 /* Managers */,
 				743B91741BBD72A500166E48 /* Networking */,
 				743B91471BBD52F700166E48 /* Models */,
 				743B91481BBD52F700166E48 /* Views */,
@@ -179,13 +181,6 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
-		743B91441BBD52F700166E48 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
 		743B91451BBD52F700166E48 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,13 +190,6 @@
 				743B91571BBD558300166E48 /* XTWorldsListViewController.m */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		743B91461BBD52F700166E48 /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Managers;
 			sourceTree = "<group>";
 		};
 		743B91471BBD52F700166E48 /* Models */ = {
@@ -220,6 +208,7 @@
 		743B91481BBD52F700166E48 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				743B91821BBDC11C00166E48 /* ProgressView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -276,6 +265,16 @@
 				743B91801BBD749200166E48 /* Localizable.strings */,
 			);
 			path = Translations;
+			sourceTree = "<group>";
+		};
+		743B91821BBDC11C00166E48 /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				743B91831BBDC11C00166E48 /* MRProgressOverlayView_Extension.h */,
+				743B91841BBDC11C00166E48 /* XTProgressOverlayView.h */,
+				743B91851BBDC11C00166E48 /* XTProgressOverlayView.m */,
+			);
+			path = ProgressView;
 			sourceTree = "<group>";
 		};
 		CE9A625E38562BDDB25312F6 /* Frameworks */ = {
@@ -433,6 +432,7 @@
 				743B916D1BBD6AD100166E48 /* XTGameWorlds.m in Sources */,
 				743B917E1BBD733700166E48 /* XTGameWorldsList.m in Sources */,
 				743B917B1BBD731100166E48 /* XTService.m in Sources */,
+				743B91861BBDC11C00166E48 /* XTProgressOverlayView.m in Sources */,
 				743B91771BBD72A500166E48 /* XTNetworkManager.m in Sources */,
 				743B916A1BBD697000166E48 /* XTGameWorld.m in Sources */,
 			);

@@ -19,11 +19,6 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    NSLog(@"Hello");
-    
-    [XTGameWorldsList getGameWorldsWithUserWithEmail:@"ios.test@xyrality.com"
-                                            password:@"password"];
-    
     return YES;
 }
 

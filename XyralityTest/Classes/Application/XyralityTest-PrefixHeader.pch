@@ -23,8 +23,4 @@
 #import "ObjectiveSugar.h"
 #import "extobjc.h"
 
-//PromiseKit
-//#import "Promise.h"
-
-
 #endif /* XyralityTest_PrefixHeader_pch */

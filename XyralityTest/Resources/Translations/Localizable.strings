@@ -9,3 +9,4 @@
 // Error Handling
 "Error" = "Error";
 "OK" = "OK";
+"Server Error. Please check your credentials and try again." = "Server Error. Please check your credentials and try again.";

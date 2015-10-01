@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XTWorldsListViewController : UIViewController
+@interface XTWorldsListViewController : UITableViewController
 
+@property (nonatomic, strong) NSArray *gameWorlds;
 
 @end
 

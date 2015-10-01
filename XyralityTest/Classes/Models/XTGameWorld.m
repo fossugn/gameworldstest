@@ -10,8 +10,7 @@
 
 @implementation XTGameWorld
 
-+(EKObjectMapping *)objectMapping
-{
++ (EKObjectMapping *)objectMapping {
     return [EKObjectMapping mappingForClass:self withBlock:^(EKObjectMapping *mapping) {
         [mapping mapPropertiesFromArray:@[@"country", @"language", @"mapURL", @"name"]];
         [mapping mapPropertiesFromDictionary:@{

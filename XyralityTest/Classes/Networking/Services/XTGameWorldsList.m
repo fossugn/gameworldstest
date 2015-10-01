@@ -21,24 +21,17 @@
                               @"password"   : password,
                               @"deviceType" : deviceType,
                               @"deviceId"   : deviceId };
-//    __block NSString *passwordBlock = password;
-//    __block NSString *emailBlock = email;
-    
+
     return [[XTNetworkManager sharedInstance] POST:@"worlds/"
                                         parameters:params].then(^(id responseObject, NSURLSessionDataTask *task){
-
+        NSDictionary *responseDictionary = responseObject;
+        if ([responseDictionary objectForKey:@"error"]) {
+            return [PMKPromise promiseWithValue:nil];
+        }
+        
         XTGameWorlds *gameWorlds = [EKMapper objectFromExternalRepresentation:responseObject withMapping:[XTGameWorlds objectMapping]];
-        
-//        User *user = [User createOrUpdateInDefaultContextWithDictionary:responseObject];
-//        user.email = emailBlock;
-//        user.password = passwordBlock;
-//        
-//        [ModelManager sharedInstance].user = user;
-        
-        return [PMKPromise promiseWithValue:gameWorlds];
+        return [PMKPromise promiseWithValue:gameWorlds.gameWorlds];
     }).catch(^(NSError *error, NSURLSessionDataTask *task){
-        
-        NSLog(@"Error: %@", error);
 
         [self resolveFailedResponse:task withError:error];
         return [PMKPromise promiseWithValue:error];
